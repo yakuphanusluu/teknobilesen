@@ -1,0 +1,61 @@
+.blog-container {
+    margin: 30px auto;
+    max-width: 1500px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-header h1 {
+    color: #158DBC;
+    font-size: 42px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px; /* Boşluk düşmesini önlemek için negatif margin */
+}
+
+.blog-post {
+    width: 450px; /* Üç sütunlu düzen için genişlik hesaplaması */
+    background-color: #f9f9f9;
+    padding: 10px; /* Padding değerini artırdık */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px; /* Dikey boşluk */
+    position: relative; /* Görsel kırpma için container'ı göreceli olarak ayarlayalım */
+}
+
+.blog-post:nth-child(3n) {
+    margin-right: 0; /* Her üçüncü sütun için sağ boşluk olmasın */
+}
+
+.blog-post .post-image {
+    width: 100%;
+    padding-top: 75%; /* 4:3 oranı (3/4 = 0.75) */
+    background-size: cover; /* Resmi container'a sığdır */
+    background-position: center; /* Resmi ortala */
+    border-radius: 10px; /* Köşe yuvarlama efekti */
+}
+
+.blog-post h2 {
+    color: #158DBC;
+    font-size: 32px; /* Başlık font boyutunu büyüttük */
+    margin-bottom: 10px;
+}
+
+.blog-post h2 a {
+    text-decoration: none; /* Linklerin altını çizme */
+    color: #158DBC; /* Link rengi */
+}
+
+.blog-post p {
+    color: #333;
+    font-size: 20px; /* Yazı içeriğinin boyutunu büyüttük */
+}

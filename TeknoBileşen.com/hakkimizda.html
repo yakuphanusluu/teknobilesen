@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Hakkımızda - TeknoBileşen.com</title>
+    <link rel="stylesheet" href="taslak.css">
+    <link rel="icon" href="Resimler/favicon/favicon.png" type="image/png">
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; 
+            background-size: cover; 
+            background-position: center; 
+        }
+
+        /* Main Styles */
+        main {
+            padding: 50px 20px;
+        }
+        /* Card Styles */
+        .card {
+            background-color: rgba(20, 141, 188, 0.8); /* Hafif saydam koyu mavi */
+            width: 90%;
+            max-width: 1000px; /* Or adjust this value as needed */
+            box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+            border-radius: 20px; /* Border radius increased */
+            overflow: hidden;
+            margin: 0 auto; /* Center the card */
+        } 
+        .container {
+            padding: 20px;
+            color: white;
+            display: flex;
+            flex-direction: column; /* Align content vertically */
+            align-items: center; /* Align content horizontally */
+        }
+        .container h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+            text-align: inherit;
+            color: aqua;
+        }
+        .container p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            margin-bottom: 10px; /* Add bottom margin */
+            text-align: justify; /* Justify text */
+            max-width: 900px; /* Limit text width */
+        }
+        .card img {
+            width: 40%; /* Adjust image width */
+            height: auto;
+            border-radius: 10px; /* Adjust border radius */
+        }
+        /* Team Section Styles */
+        .team-section {
+            display: flex;
+            flex-wrap: wrap; /* Wrap items if they exceed the container width */
+            justify-content: center; /* Center items horizontally */
+            gap: 60px; /* Add space between items */
+            margin-top: 50px;
+        }
+        .team-member {
+            text-align: center;
+            width: calc(50% - 20px); /* Adjust width to fit two items in a row with space between */
+            max-width: 200px; /* Maximum width for responsiveness */
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .team-member h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #131212;
+        }
+        
+        .team-member p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #0f0f0f;
+        }
+    </style>
+</head>
+
+<body>
+    <header> 
+        <div class="logo">
+            <a href="index.html">
+                <img src="Resimler/Anamenü/tekno_bilesen_logo.svg" alt="TeknoBileşen Logo">
+            </a>
+        </div>
+
+        <div class="account-icon">
+            <a href="login.php">
+                <img src="Resimler/Anamenü/account_icon.svg" alt="Hesabım">
+            </a>
+        </div>
+    </header>
+   
+    <main>
+        <section id="section-2">
+            <div class="card">
+                <div class="container">
+
+                    <div>
+                        <p>TeknoBileşen.com, bilgisayar tutkunlarının ihtiyaçlarını karşılamak için 2024 yılında kurulmuş bir platformdur. Amacımız, bilgisayar parçalarıyla ilgili karmaşık bilgiler arasında kaybolmadan, en doğru seçimleri yapmanıza yardımcı olmaktır.</p>
+                        <p>Bizler, bilgisayar teknolojisi alanında uzmanlaşmış bir ekip olarak, en son trendleri takip eder ve kullanıcılarımıza en güncel ve doğru bilgileri sunmayı hedefleriz. Her kullanıcının ihtiyaçlarına uygun çözümler sunmak için sürekli olarak araştırma yapar ve gelişen teknolojiye ayak uydururuz.</p>
+                        <p>TeknoBileşen.com olarak, bilgisayar toplama sürecini keyifli ve kolay hale getirmek için çaba gösteririz. Sizlere en iyi kombinasyonları sunarak, bilgisayarınızı kişiselleştirmenize ve en yüksek performansı elde etmenize yardımcı oluruz.</p>
+                        <p>Bizimle birlikte, bilgisayar dünyasında kendinizi güvende hissedebilir ve teknolojiyi tam anlamıyla keşfedebilirsiniz. TeknoBileşen.com olarak, bilgisayar deneyiminizi mükemmelleştirmek için buradayız!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="team-member">
+                <img src="Resimler/ekip/yakuphan.png" alt="Ekip Üyesi 1">
+                <h3>Yakuphan Üslü</h3>
+                <p>Full Stack Geliştirici</p>
+                <p>Proje Yöneticisi</p>
+            </div>
+            <div class="team-member">
+                <img src="Resimler/ekip/bilal.png" alt="Ekip Üyesi 2">
+                <h3>Bilal Mart</h3>
+                <p>Front-End Geliştirici</p>
+                <p>Veri Tabanı Geliştirici</p>	
+            </div>
+            <div class="team-member">
+                <img src="Resimler/ekip/uygar.JPEG" alt="Ekip Üyesi 3">
+                <h3>Zeki Uygar Erzincan</h3>
+                <p>Back-End Geliştirici</p>
+                <p>Joker</p>
+            </div>
+            <div class="team-member">
+                <img src="Resimler/ekip/kaan.png" alt="Ekip Üyesi 4">
+                <h3>Kaan Furkan Naçar</h3>
+                <p>Full Stack Geliştirici</p>
+                <p>UI/UX Tasarımcısı</p>
+            </div>
+        </section>
+    </main>
+
+    <footer style="position: fixed; bottom: 0; width: 100%;">
+        <div class="footer-content">
+        <div class="text-1">teknobileşen.com © 2024</div>  
+        <div class="text-2">  
+            <nav>             
+            <ul>
+                <li><a href="blog.html">Blog</a></li> | <li><a href="hakkimizda.html">Hakkımızda</a></li> | <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav> 
+        </div>
+        </div>                        
+    </footer>
+
+    <!-- Audio element -->
+    <audio id="background-audio" autoplay loop>
+        <source src="muzik.mp4" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Optional JavaScript to ensure autoplay works on all devices -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-audio');
+            audio.play().catch(function(error) {
+                console.log('Autoplay was prevented: ', error);
+            });
+        });
+    </script>
+</body>
+</html>
